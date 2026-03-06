@@ -11,9 +11,9 @@ To use Matlab we must install first Matlab in our computer from the official [Ma
 $ sudo ./install
 ```
 
-- **STEP02**: Problems at startuperror 5201
+- **STEP02**: Problems at startup
 
-If we try to start or use Matlab in Python we will have errors with the MathWorks Service Host service. In Ubuntu 24.04 after install we will have some [problems](https://es.mathworks.com/matlabcentral/answers/1815395-why-do-i-receive-error-5201-unable-to-access-services-required-to-run-matlab) with the service MathWorks Service Host. This service validate the Matlab serial code, in our case as student. We must install some dependencies in Ubuntu before try to start or use Matlab in Python.
+If we try to start or use Matlab in Python we will have errors with the MathWorks Service Host service obtaining a continuos error 5201 on console. In Ubuntu 24.04 after install we will have some [problems](https://es.mathworks.com/matlabcentral/answers/1815395-why-do-i-receive-error-5201-unable-to-access-services-required-to-run-matlab) with the service MathWorks Service Host. This service validate the Matlab serial code, in our case as student. We must install some dependencies in Ubuntu before try to start or use Matlab in Python.
 
 
 ```
