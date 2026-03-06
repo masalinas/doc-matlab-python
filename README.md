@@ -4,7 +4,7 @@ Integrate Matlab into Python
 ## Steps
 
 - **STEP01**: install Matlab
-To use Matlab we must install first Matlab in our computer from the official [Matlab Portal](https://es.mathworks.com/downloads/web_downloads/). First read the [Matlab Python compatibility Table](https://es.mathworks.com/support/requirements/python-compatibility.html) to download the correct version of Matlab to be integrated in our Python version apps. After download the zip file, unzip and execute the command:
+To use Matlab we must install first Matlab in our computer from the official [Matlab Portal](https://es.mathworks.com/downloads/web_downloads/). First read the [Matlab Python compatibility Table](https://es.mathworks.com/support/requirements/python-compatibility.html) to download the correct version of Matlab to be integrated in our Python version apps, in our case **matlab_R2025b_Linux.zip**. After download the zip file, unzip and execute the command:
 
 ```
 $ sudo ./install
@@ -20,6 +20,8 @@ $ sudo apt install libcanberra-gtk-module libcanberra-gtk3-module ibatk-adaptor 
 
 - **STEP03**: Install extra plugins
 If we must use some extra plugins in Matlab. We can reexcute the command `install` and select new plugin in the step apropiated.
+
+![Matlab Products](./images/matlab_plugins.jpg "Matlab Products")
 
 - **STEP04**: Integrate with Python
 After install the previous dependencies we can start Matlab and integrate with Python. To use Matlab in Python we must install locally in out project the Python package called [matlabengine](https://pypi.org/project/matlabengine/). To be uses more info go to the [matlabengine project](https://github.com/mathworks/matlab-engine-for-python/)
